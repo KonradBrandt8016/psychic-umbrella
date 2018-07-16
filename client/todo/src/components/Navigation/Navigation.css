@@ -1,0 +1,11 @@
+ul.navigation {
+  list-style: none;
+  display: inline;
+  text-align: center;
+  padding: 0;
+}
+
+ul.navigation li {
+  display: inline-block;
+  margin: 10px;
+}
