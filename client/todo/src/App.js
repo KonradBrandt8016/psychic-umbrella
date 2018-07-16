@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 import Navigation from "./components/Navigation/Navigation";
 import Welcome from "./components/Welcome/Welcome";
 import "./App.css";
@@ -10,7 +10,7 @@ class App extends Component {
       <BrowserRouter>
         <div className="App">
           <Navigation />
-          <Welcome />
+          <Route path="/" component={Welcome} />
         </div>
       </BrowserRouter>
     );

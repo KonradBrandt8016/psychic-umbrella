@@ -1,14 +1,15 @@
 import React from "react";
 import "./Navigation.css";
+import { Link } from "react-router-dom";
 
 const navigation = () => {
   return (
     <ul className="navigation">
       <li>
-        <a href="/registration">Register</a>
+        <Link to="/register">Register</Link>
       </li>
       <li>
-        <a href="/login">Login</a>
+        <Link to="/login">Login</Link>
       </li>
     </ul>
   );
