@@ -9,3 +9,13 @@ ul.navigation li {
   display: inline-block;
   margin: 10px;
 }
+
+ul.navigation li a:hover {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+
+ul.navigation li a:active {
+  opacity: 1;
+  text-decoration: none;
+}
