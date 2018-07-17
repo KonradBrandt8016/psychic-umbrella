@@ -11,13 +11,6 @@ const login = () => {
                 <article class="tile is-child notification has-background-light">
                   <input
                     class="form-input"
-                    type="text"
-                    placeholder="Name"
-                    name="name"
-                    required
-                  />
-                  <input
-                    class="form-input"
                     type="email"
                     placeholder="Email Address"
                     name="email"
@@ -30,7 +23,7 @@ const login = () => {
                     name="password"
                     required
                   />
-                  <button type="submit">Submit</button>
+                  <button type="submit">Login</button>
                 </article>
               </div>
             </div>

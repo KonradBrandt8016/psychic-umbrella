@@ -31,7 +31,7 @@ const registration = () => {
                     name="password"
                     required
                   />
-                  <button type="submit">Submit</button>
+                  <button type="submit">Register</button>
                 </article>
               </div>
             </div>
