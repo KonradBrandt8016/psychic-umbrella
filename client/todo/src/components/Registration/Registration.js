@@ -4,7 +4,7 @@ import "./Registration.css";
 const registration = () => {
   return (
     <div className="section">
-      <form action="/action-page">
+      <form action="http://localhost:5000/user" method="POST">
         <div className="container">
           <div className="tile is-ancestor">
             <div className="tile is-12">
