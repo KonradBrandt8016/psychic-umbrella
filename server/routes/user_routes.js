@@ -1,5 +1,5 @@
 module.exports = function(app, db) {
-  app.get("/user", (req, res) => {
+  app.post("/user", (req, res) => {
     var user = {
       name: req.body.name,
       email: req.body.email,
