@@ -1,7 +1,6 @@
 import React from "react";
 import "./Navigation.css";
 import { Link } from "react-router-dom";
-import "bulma/css/bulma.css";
 
 const navigation = () => {
   return (

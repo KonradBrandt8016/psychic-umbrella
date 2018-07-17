@@ -1,4 +1,5 @@
 import React from "react";
+import "bulma/css/bulma.css";
 
 class Welcome extends React.Component {
   state = {
@@ -21,7 +22,16 @@ class Welcome extends React.Component {
   };
 
   render() {
-    return <div>{this.state.response}</div>;
+    return (
+      <section class="hero is-info">
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title">Hero title</h1>
+            <h2 class="subtitle">{this.state.response}</h2>
+          </div>
+        </div>
+      </section>
+    );
   }
 }
 
