@@ -9,23 +9,23 @@ const registration = () => {
           <div className="tile is-ancestor">
             <div className="tile is-12">
               <div className="tile is-parent">
-                <article class="tile is-child notification has-background-light">
+                <article className="tile is-child notification has-background-light">
                   <input
-                    class="form-input"
+                    className="form-input"
                     type="text"
                     placeholder="Name"
                     name="name"
                     required
                   />
                   <input
-                    class="form-input"
+                    className="form-input"
                     type="email"
                     placeholder="Email Address"
                     name="email"
                     required
                   />
                   <input
-                    class="form-input"
+                    className="form-input"
                     type="password"
                     placeholder="Password"
                     name="password"

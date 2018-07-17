@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 const navigation = () => {
   return (
-    <section class="hero is-info">
-      <div class="hero-body">
+    <section className="hero is-info">
+      <div className="hero-body">
         <ul className="navigation">
           <li>
             <Link to="/">Home</Link>
